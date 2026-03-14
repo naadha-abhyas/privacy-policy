@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Naadha Abhyas</title>
-    <!-- Google Fonts -->
-    <!-- Playfair for Title, Cinzel for Headings, Jost for Body -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Cinzel:wght@700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Playfair for classical headings, Jost for modern body -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --wood-dark: #2c1b0e; /* Darker Mahogany for better contrast */
+            --wood-dark: #3e2723; /* Deep Mahogany */
             --wood-medium: #5d4037;
-            --saffron-deep: #e65100; /* Darker saffron for mobile visibility */
-            --gold-metallic: #a67c00;
-            --antique-paper: #f2e8df; /* Slightly darker cream for less glare */
-            --text-black: #1a1a1a; /* Pure contrast for readability */
+            --saffron: #f57c00;
+            --gold: #d4af37;
+            --parchment: #fdfaf5;
+            --text-dark: #2d2d2d;
         }
 
         * {
@@ -25,80 +24,84 @@
 
         body {
             font-family: 'Jost', sans-serif;
-            background-color: #e5ddd3; /* Darker background to make the card pop */
-            background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png"); /* Subtle texture */
-            color: var(--text-black);
-            line-height: 1.6;
+            background-color: #f4ece2; /* Light creamy wood-tone background */
+            background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png"); /* Subtle paper texture */
+            color: var(--text-dark);
+            line-height: 1.8;
+            padding: 0;
         }
 
-        /* Hero Header */
+        /* Hero Header Section */
         .hero {
-            background: linear-gradient(rgba(44, 27, 14, 0.85), rgba(44, 27, 14, 0.85)), 
-                        url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2070&auto=format&fit=crop');
+            background: linear-gradient(rgba(62, 39, 35, 0.8), rgba(62, 39, 35, 0.8)), 
+                        url('https://images.unsplash.com/photo-1599308103323-649080e7c53d?q=80&w=2070&auto=format&fit=crop'); /* Aesthetic wooden/instrument background */
             background-size: cover;
             background-position: center;
-            color: #fff;
+            color: white;
             text-align: center;
-            padding: 60px 20px 100px;
-            border-bottom: 5px solid var(--gold-metallic);
+            padding: 80px 20px;
+            border-bottom: 8px solid var(--gold);
         }
 
         .hero h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 2.8rem;
-            margin-bottom: 5px;
-            color: #f4ece2;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
         }
 
         .hero p {
-            font-size: 1rem;
-            color: var(--gold-metallic);
+            font-size: 1.2rem;
+            color: var(--gold);
             text-transform: uppercase;
-            letter-spacing: 4px;
-            font-weight: 600;
+            letter-spacing: 3px;
         }
 
-        /* Content Container */
+        /* Main Content Card */
         .container {
-            max-width: 800px;
-            margin: -60px auto 40px;
-            background: var(--antique-paper);
-            padding: 40px;
-            border-radius: 2px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            border: 1px solid #dccfbf; /* Visible border for mobile */
+            max-width: 850px;
+            margin: -50px auto 60px; /* Overlaps with hero for a modern look */
+            background: var(--parchment);
+            padding: 60px;
+            border-radius: 4px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            border-top: 5px solid var(--saffron);
             position: relative;
         }
 
-        /* Side Headings (Updated Font) */
+        /* Decorative Indian Element */
+        .container::before {
+            content: "◈ ◈ ◈";
+            display: block;
+            text-align: center;
+            color: var(--saffron);
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
         h2 {
-            font-family: 'Cinzel', serif; /* New Heading Font */
+            font-family: 'Playfair Display', serif;
             color: var(--wood-dark);
-            font-size: 1.4rem;
-            margin-top: 35px;
-            margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            border-bottom: 2px solid var(--gold-metallic);
+            font-size: 1.8rem;
+            margin-top: 45px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #e0d0b0;
+            display: inline-block;
+            width: 100%;
             padding-bottom: 5px;
-            letter-spacing: 1px;
         }
 
         .intro-box {
             font-style: italic;
-            border-left: 4px solid var(--saffron-deep);
-            padding: 15px 20px;
+            border-left: 3px solid var(--gold);
+            padding-left: 20px;
             margin-bottom: 30px;
-            background: rgba(230, 81, 0, 0.05);
-            color: var(--wood-dark);
+            color: var(--wood-medium);
             font-size: 1.1rem;
-            font-weight: 500;
         }
 
         p {
-            margin-bottom: 18px;
-            font-size: 1.05rem;
+            margin-bottom: 20px;
         }
 
         strong {
@@ -106,52 +109,49 @@
             font-weight: 600;
         }
 
-        /* Contact Box */
+        /* Contact Section */
         .contact-card {
-            background-color: var(--wood-dark);
-            color: #f4ece2;
+            background-color: #efebe9;
+            border: 1px solid #d7ccc8;
             padding: 30px;
-            border-radius: 4px;
-            margin-top: 40px;
+            border-radius: 8px;
+            margin-top: 50px;
             text-align: center;
         }
 
         .contact-card h3 {
-            font-family: 'Cinzel', serif;
+            font-family: 'Playfair Display', serif;
+            color: var(--wood-dark);
             margin-bottom: 10px;
-            color: var(--gold-metallic);
         }
 
         .contact-card a {
-            color: #fff;
-            text-decoration: underline;
+            color: var(--saffron);
+            text-decoration: none;
             font-weight: bold;
             font-size: 1.1rem;
         }
 
+        .contact-card a:hover {
+            color: var(--wood-dark);
+        }
+
         footer {
             text-align: center;
-            padding: 30px;
-            color: var(--wood-dark);
-            font-size: 0.8rem;
-            font-weight: 600;
+            padding: 40px;
+            color: var(--wood-medium);
+            font-size: 0.9rem;
             letter-spacing: 1px;
         }
 
-        /* Mobile specific fixes */
-        @media (max-width: 600px) {
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
             .container {
-                margin: -40px 15px 30px;
-                padding: 25px 20px;
+                margin: 20px;
+                padding: 30px;
             }
             .hero h1 {
-                font-size: 2rem;
-            }
-            h2 {
-                font-size: 1.2rem;
-            }
-            body {
-                background-image: none; /* Cleaner look on mobile */
+                font-size: 2.2rem;
             }
         }
     </style>
@@ -165,59 +165,60 @@
 
 <div class="container">
     <div class="intro-box">
-        Naadha Abhyas is a specialized Carnatic music practice tool designed for swara accuracy, 
-        pitch detection, and musical growth.
+        Naadha Abhyas is a Carnatic music practice application designed to help users improve
+        their swara accuracy, pitch control, and understanding of musical notes through
+        interactive practice tools.
     </div>
 
     <p><strong>Effective Date:</strong> March 2026</p>
 
     <h2>Information We Collect</h2>
     <p>
-        Naadha Abhyas requests access to the <strong>device microphone</strong>. This is strictly required 
-        to analyze your voice in real-time for pitch detection and swara identification.
+        Naadha Abhyas may request access to the device microphone. This permission is required
+        to analyze the user's voice in real time for <strong>pitch detection</strong> and 
+        <strong>swara identification</strong> during practice sessions.
     </p>
     <p>
-        We <strong>do not collect</strong> personal information such as names, email addresses, 
-        or location data.
+        The application <strong>does not</strong> collect, store, or share personal information 
+        such as name, email address, phone number, or location.
     </p>
 
-    <h2>How We Use Information</h2>
+    <h2>How We Use the Information</h2>
     <p>
-        Audio captured is processed <strong>locally on your device</strong>. The data is used 
-        instantaneously to provide musical feedback.
+        Audio captured through the microphone is processed <strong>locally</strong> on your device 
+        only for the purpose of detecting pitch and providing musical feedback. 
     </p>
     <p>
-        The application <strong>never records, stores, or transmits</strong> your audio data 
-        to any external servers or cloud services.
+        The application <strong>does not store, record, or transmit</strong> audio data to any external servers. 
+        Your practice remains private.
     </p>
 
     <h2>Data Storage & Security</h2>
     <p>
-        Because we do not collect data, there is no personal data stored on our end. 
-        All processing happens within the temporary memory of your device and is cleared immediately.
+        Since Naadha Abhyas does not collect personal data, there is no risk of data exposure. 
+        All audio analysis happens in real-time and is discarded immediately after processing.
     </p>
 
     <h2>Third-Party Services</h2>
     <p>
-        Your privacy is sacred. We do not share data with any third-party advertisers, 
-        analytics companies, or service providers.
+        We do not share any data with third-party services, advertisers, or analytics providers.
     </p>
 
     <h2>Children's Privacy</h2>
     <p>
-        Naadha Abhyas is safe for students of all ages. We do not knowingly collect 
-        any information from children.
+        The app is intended for general audiences and music students. We do not knowingly 
+        collect any personal information from children.
     </p>
 
     <div class="contact-card">
         <h3>Contact Us</h3>
-        <p>Questions about our privacy practices?</p>
+        <p>Questions regarding our musical practice tools or privacy?</p>
         <a href="mailto:naadhaabhyas@gmail.com">naadhaabhyas@gmail.com</a>
     </div>
 </div>
 
 <footer>
-    <p>© 2026 NAADHA ABHYAS • TRADITION MEETS TECHNOLOGY</p>
+    <p>© 2026 NAADHA ABHYAS • DEVOTED TO CARNATIC EXCELLENCE</p>
 </footer>
 
 </body>
