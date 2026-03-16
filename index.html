@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Naadha Abhyas</title>
     <!-- Google Fonts -->
-    <!-- Playfair for Title, Cinzel for Headings, Jost for Body -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Cinzel:wght@700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --wood-dark: #2c1b0e; /* Darker Mahogany for better contrast */
+            --wood-dark: #2c1b0e; 
             --wood-medium: #5d4037;
-            --saffron-deep: #e65100; /* Darker saffron for mobile visibility */
+            --saffron-deep: #e65100; 
             --gold-metallic: #a67c00;
-            --antique-paper: #f2e8df; /* Slightly darker cream for less glare */
-            --text-black: #1a1a1a; /* Pure contrast for readability */
+            --antique-paper: #f2e8df; 
+            --text-black: #1a1a1a; 
         }
 
         * {
@@ -25,8 +24,8 @@
 
         body {
             font-family: 'Jost', sans-serif;
-            background-color: #e5ddd3; /* Darker background to make the card pop */
-            background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png"); /* Subtle texture */
+            background-color: #e5ddd3; 
+            background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png"); 
             color: var(--text-black);
             line-height: 1.6;
         }
@@ -61,28 +60,35 @@
 
         /* Content Container */
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: -60px auto 40px;
             background: var(--antique-paper);
-            padding: 40px;
+            padding: 50px;
             border-radius: 2px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            border: 1px solid #dccfbf; /* Visible border for mobile */
+            border: 1px solid #dccfbf; 
             position: relative;
         }
 
-        /* Side Headings (Updated Font) */
+        /* Headings */
         h2 {
-            font-family: 'Cinzel', serif; /* New Heading Font */
+            font-family: 'Cinzel', serif; 
             color: var(--wood-dark);
             font-size: 1.4rem;
-            margin-top: 35px;
-            margin-bottom: 12px;
+            margin-top: 40px;
+            margin-bottom: 15px;
             display: flex;
             align-items: center;
             border-bottom: 2px solid var(--gold-metallic);
             padding-bottom: 5px;
             letter-spacing: 1px;
+        }
+
+        h3 {
+            font-family: 'Cinzel', serif;
+            color: var(--wood-medium);
+            font-size: 1.1rem;
+            margin: 20px 0 10px;
         }
 
         .intro-box {
@@ -92,7 +98,7 @@
             margin-bottom: 30px;
             background: rgba(230, 81, 0, 0.05);
             color: var(--wood-dark);
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             font-weight: 500;
         }
 
@@ -101,37 +107,75 @@
             font-size: 1.05rem;
         }
 
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            list-style-type: square;
+            color: #333;
+        }
+
         strong {
             color: var(--wood-dark);
             font-weight: 600;
+        }
+
+        .link-text {
+            color: var(--saffron-deep);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .link-text:hover {
+            text-decoration: underline;
         }
 
         /* Contact Box */
         .contact-card {
             background-color: var(--wood-dark);
             color: #f4ece2;
-            padding: 30px;
+            padding: 35px;
             border-radius: 4px;
-            margin-top: 40px;
+            margin-top: 50px;
             text-align: center;
         }
 
         .contact-card h3 {
             font-family: 'Cinzel', serif;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             color: var(--gold-metallic);
         }
 
-        .contact-card a {
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
             color: #fff;
-            text-decoration: underline;
-            font-weight: bold;
-            font-size: 1.1rem;
+            text-decoration: none;
+            font-size: 0.9rem;
+            background: rgba(255,255,255,0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            border: 1px solid var(--gold-metallic);
+        }
+
+        .social-links a:hover {
+            background: var(--gold-metallic);
+            color: var(--wood-dark);
         }
 
         footer {
             text-align: center;
-            padding: 30px;
+            padding: 40px;
             color: var(--wood-dark);
             font-size: 0.8rem;
             font-weight: 600;
@@ -142,7 +186,7 @@
         @media (max-width: 600px) {
             .container {
                 margin: -40px 15px 30px;
-                padding: 25px 20px;
+                padding: 30px 20px;
             }
             .hero h1 {
                 font-size: 2rem;
@@ -151,7 +195,7 @@
                 font-size: 1.2rem;
             }
             body {
-                background-image: none; /* Cleaner look on mobile */
+                background-image: none; 
             }
         }
     </style>
@@ -165,61 +209,78 @@
 
 <div class="container">
     <div class="intro-box">
-        Naadha Abhyas is a specialized Carnatic music practice tool designed for swara accuracy, 
-        pitch detection, and musical growth.
+        This Privacy Policy explains how the Naadha Abhyas mobile application (“App”, “we”, “us”, “our”) collects, uses, and protects your information.
     </div>
 
-    <p><strong>Effective Date:</strong> March 2026</p>
+    <p><strong>Last Updated:</strong> March 2026</p>
 
-    <h2>Information We Collect</h2>
-    <p>
-        Naadha Abhyas requests access to the <strong>device microphone</strong>. This is strictly required 
-        to analyze your voice in real-time for pitch detection and swara identification.
-    </p>
-    <p>
-        We <strong>do not collect</strong> personal information such as names, email addresses, 
-        or location data.
-    </p>
+    <h2>1. Scope</h2>
+    <p>This policy applies to the Naadha Abhyas Android application built with Flutter, including its integration with third-party services such as Google Firebase, Google Sign-In, and Cloudinary. The App is designed as a Carnatic music practice companion with features such as tanpura, metronome, pitch guide, and swara detection.</p>
 
-    <h2>How We Use Information</h2>
-    <p>
-        Audio captured is processed <strong>locally on your device</strong>. The data is used 
-        instantaneously to provide musical feedback.
-    </p>
-    <p>
-        The application <strong>never records, stores, or transmits</strong> your audio data 
-        to any external servers or cloud services.
-    </p>
-    <h2>Data Deletion</h2>
-    <p>
-        Since Naadha Abhyas does not collect, store, or upload any personal data 
-        or audio recordings to a server, there is no user data to delete. 
-        If you wish to stop all processing, you may simply revoke microphone 
-        permissions in your device settings or uninstall the application.
-    </p>
+    <h2>2. Information We Collect</h2>
+    
+    <h3>2.1 Account and Profile Information</h3>
+    <p>The current version of Naadha Abhyas does not require you to create an account or sign in. We do not collect your name, email address, or profile photo through in-app sign-in flows at this time.</p>
 
-    <h2>Data Storage & Security</h2>
-    <p>
-        Because we do not collect data, there is no personal data stored on our end. 
-        All processing happens within the temporary memory of your device and is cleared immediately.
-    </p>
+    <h3>2.2 Usage and Practice Data</h3>
+    <ul>
+        <li><strong>Audio recordings:</strong> Your voice or instrument recordings are primarily stored locally on your device for analysis (pitch detection, breath control, etc.).</li>
+        <li><strong>Generated media:</strong> Audio and video generated from notation or tala practice are stored on your device and only shared if you choose to export them.</li>
+        <li><strong>Practice configurations:</strong> Selected tonic (Sa), tempo, tala, and notation settings are stored to maintain your session.</li>
+    </ul>
 
-    <h2>Third-Party Services</h2>
-    <p>
-        Your privacy is sacred. We do not share data with any third-party advertisers, 
-        analytics companies, or service providers.
-    </p>
+    <h3>2.3 Device and Technical Information</h3>
+    <p>Through SDKs (Firebase, device_info_plus), we may collect:</p>
+    <ul>
+        <li>Device model, OS version, and characteristics.</li>
+        <li>App version and language settings.</li>
+        <li>Network connectivity status.</li>
+        <li>Firebase Cloud Messaging tokens for push notifications.</li>
+    </ul>
 
-    <h2>Children's Privacy</h2>
-    <p>
-        Naadha Abhyas is safe for students of all ages. We do not knowingly collect 
-        any information from children.
-    </p>
+    <h2>3. Permissions We Request</h2>
+    
+    <h3>3.1 Microphone</h3>
+    <p>Used for real-time audio analysis (pitch, swara, volume) to provide musical feedback. We do not use microphone access for advertising or hidden recordings.</p>
+
+    <h3>3.2 Storage / Media Access</h3>
+    <p>Used to read and write practice outputs (generated audio/video) and allow you to pick profile images via the system gallery. We only access media you explicitly choose.</p>
+
+    <h3>3.3 Notifications</h3>
+    <p>Used to deliver push notifications regarding updates or reminders. You can revoke this in device settings.</p>
+
+    <h3>3.4 Foreground Service & Wake Lock</h3>
+    <p>Used to keep the tanpura, metronome, or recording sessions running reliably even when the screen is off or the app is in the background.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>We integrate with the following services to provide app functionality:</p>
+    <ul>
+        <li><strong>Google Firebase:</strong> Used for Authentication, Firestore data management, and Cloud Messaging. Data is processed according to <a href="https://policies.google.com/privacy" class="link-text">Google’s Privacy Policy</a>.</li>
+        <li><strong>Google Sign-In:</strong> If used, we receive basic profile info (name, email) to manage your account.</li>
+        <li><strong>Cloudinary:</strong> Used for secure storage and delivery of uploaded media assets.</li>
+    </ul>
+
+    <h2>5. Advertising</h2>
+    <p>Naadha Abhyas <strong>does not display ads</strong>. The app does not use the device Advertising ID (AD ID) and does not integrate with any ad-tracking SDKs.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>Naadha Abhyas is a music practice app and may be used by students, including minors, often under the guidance of a teacher. We do not knowingly collect personal information from children without appropriate consent. If you believe a child has provided data without consent, please contact us.</p>
+
+    <h2>7. Data Storage & Security</h2>
+    <p>All audio and video created for practice is stored <strong>locally on your device</strong>. Account data or uploaded media are stored using trusted cloud providers (Firebase/Cloudinary). While we use secure channels, no method of electronic storage is 100% secure.</p>
+
+    <h2>8. Your Choices and Rights</h2>
+    <p>You may control permissions (microphone, notifications) via your device settings. You can delete practice files by clearing app data. To request deletion of any account-related data stored in our back-end systems, please contact us at the email below.</p>
 
     <div class="contact-card">
         <h3>Contact Us</h3>
-        <p>Questions about our privacy practices?</p>
-        <a href="mailto:naadhaabhyas@gmail.com">naadhaabhyas@gmail.com</a>
+        <p>Questions about our privacy practices or your data?</p>
+        <a href="mailto:naadhaabhyas@gmail.com" style="color: #fff; font-weight: bold; font-size: 1.2rem;">naadhaabhyas@gmail.com</a>
+        
+        <div class="social-links">
+            <a href="https://www.youtube.com/@NaadhaAbhyas" target="_blank">YouTube</a>
+            <a href="https://www.instagram.com/naadhaabhyas/" target="_blank">Instagram</a>
+        </div>
     </div>
 </div>
 
